@@ -1,6 +1,9 @@
 # CSS
+
 #Week01
+
 1)
+
 /* Any Element With Class title */
 .title {
 }
@@ -19,6 +22,7 @@ h2 {
 
 
 2)
+
 <!-- external -->
 <link rel="stylesheet" href="css/file.css" />
 
