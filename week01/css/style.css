@@ -1,0 +1,214 @@
+body{
+    color:white;
+}
+  /*from video 5 to 8 (Background, Margin, Padding) */
+  /*--------------------assign 1----------------------- */
+
+.assign-1-shape-1{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: #8a2be2;             /*Hex*/
+    background-color: hsl(271, 76%, 53%);  /*HSL*/
+    background-color: rgb(138, 43, 226);   /*RGB*/
+}
+.assign-1-shape-2{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: #8a2be2;             /*Hex*/
+    background-color: hsl(271, 76%, 53%);  /*HSL*/
+    background-color: rgb(138, 43, 226);   /*RGB*/
+    background-color: rgb(138, 43, 226, 0.5); 
+    
+}
+.assign-1-shape-3{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: #8a2be2;             /*Hex*/
+    background-color: hsl(271, 76%, 53%);  /*HSL*/
+    background-color: rgb(138, 43, 226);   /*RGB*/
+    background-color: rgb(138, 43, 226, 0.1); 
+
+}
+
+  /*--------------------assign 2----------------------- */
+
+.assign-2-shape-1{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat:no-repeat;
+
+}
+.assign-2-shape-2{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+}
+.assign-2-shape-3{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+
+}
+.assign-2-shape-4{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat;
+
+}
+  /*--------------------assign 3----------------------- */
+
+.assign-3-shape-1{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+
+}
+.assign-3-shape-2{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-position: right;
+
+}
+.assign-3-shape-3{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+}
+.assign-3-shape-4{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat;
+
+}
+  /*--------------------assign 4----------------------- */
+
+.assign-4-shape-1{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    background-size: 80% 80% ;
+    
+}
+.assign-4-shape-2{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-size: 80% 100% ;
+    background-position: right;
+    
+}
+.assign-4-shape-3{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    background-size: 100% 80% ;
+    background-position: bottom ;
+    
+}
+.assign-4-shape-4{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50% ;
+    background-position: bottom right;
+    
+}
+
+/*----from video 9 to 12 (Border, Outline, Display)---- */
+  /*--------------------assign 1----------------------- */
+
+.shape-1{
+    border: 5px red solid;
+    outline: 5px black solid;
+    display: inline-block;
+    padding: 20px 30px;
+    margin:15px;
+    color:black;
+
+}
+.shape-2{
+    border: 5px ;
+    border-style: solid;
+    border-color: blue green;
+    outline: 5px black solid;
+    display: inline-block;
+    padding: 20px 30px;
+    margin:15px;
+    color:black;
+
+}
+.shape-3{
+    border: 5px ;
+    border-style: dashed;
+    border-color: red green blue yellow;
+    outline: 5px black solid;
+    display: inline-block;
+    padding: 20px 30px;
+    margin:15px;
+    color:black;
+
+}
+  /*--------------------assign 2----------------------- */
+
+.element-element-1{
+    background-color: rgb(232, 229, 229);
+    color:black;
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+}
+.internal-1{
+    border-left: 5px rgb(242, 7, 125) solid;
+    color:black;
+    background-color: rgb(232, 229, 229);
+    padding: 10px;
+}
+.element-element-2{
+    background-color: rgb(232, 229, 229);
+    color:black;
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+    visibility: hidden;
+}
+.internal-2{
+    border-left: 5px rgb(6, 111, 115) solid;
+    color:black;
+    background-color: rgb(232, 229, 229);
+    padding: 10px;
+}
+.element-element-3{
+    background-color: rgb(232, 229, 229);
+    color:black;
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+}
+.internal-3{
+    border-left: 5px rgb(6, 111, 115) solid;
+    color:black;
+    background-color: rgb(232, 229, 229);
+    padding: 10px;
+}
+
