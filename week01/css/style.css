@@ -173,42 +173,31 @@ body{
 
 .element-element-1{
     background-color: rgb(232, 229, 229);
+    outline: 10px solid rgb(232, 229, 229);
+    border-left: 5px rgb(242, 7, 125) solid;
     color:black;
     width: 400px;
     padding: 10px;
-    margin: 5px;
-}
-.internal-1{
-    border-left: 5px rgb(242, 7, 125) solid;
-    color:black;
-    background-color: rgb(232, 229, 229);
-    padding: 10px;
+    margin: 20px;
 }
 .element-element-2{
     background-color: rgb(232, 229, 229);
+    outline: 10px solid rgb(232, 229, 229);
+    border-left: 5px solid;
     color:black;
     width: 400px;
     padding: 10px;
-    margin: 5px;
+    margin: 20px;
     visibility: hidden;
-}
-.internal-2{
-    border-left: 5px rgb(6, 111, 115) solid;
-    color:black;
-    background-color: rgb(232, 229, 229);
-    padding: 10px;
 }
 .element-element-3{
     background-color: rgb(232, 229, 229);
+    outline: 10px solid rgb(232, 229, 229);
+    border-left: 5px  rgb(6, 111, 115) solid;
     color:black;
     width: 400px;
     padding: 10px;
-    margin: 5px;
+    margin: 20px;
 }
-.internal-3{
-    border-left: 5px rgb(6, 111, 115) solid;
-    color:black;
-    background-color: rgb(232, 229, 229);
-    padding: 10px;
-}
+ 
 
