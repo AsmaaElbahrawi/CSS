@@ -1,0 +1,171 @@
+/* from video 13 to 16 ( Nesting, Dimensions, Overflow ) */
+
+ /*--------------------assign 1----------------------- */
+.parent .child .title{
+    color:red;
+}
+.parent .title{
+    color:blue;
+}
+.title,
+.parent p{
+    color:green;
+}
+
+ /*--------------------assign 2----------------------- */
+ .div1,
+ .div2,
+ .div3,
+ .div4{
+    color:white;
+    background-color: brown;
+    padding: 20px;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    max-width: 400px;
+    width: fit-content;
+    overflow-y: hidden;
+}
+
+
+/* from video 17 to 21 (  Text Formatting ) */
+
+/*--------------------assign 1----------------------- */
+
+.shadow{
+    font-size: 120px;
+    text-shadow: 4px 4px 0 #F44336, 8px 8px 0 #2196F3, 12px 12px 0 #9C27B0 ;
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*--------------------assign 2----------------------- */
+.one{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.two{
+    text-transform: capitalize;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.three{
+    text-transform: lowercase;
+    text-indent: 13px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*--------------------assign 3----------------------- */
+.second-div{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.third-div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.fisrt-div,
+.second-div,
+.third-div{
+    width: 400px ;
+    padding:20px;
+    margin: 20px;
+    background-color: #cbcaca;
+}
+
+/*--------------------assign 4----------------------- */
+.elzero-link{
+    text-decoration: none;
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    color:white;
+    background-color: #009688;
+    padding:  50px 50px 80px 50px ;
+    border-bottom: 20px solid #00514A;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* from video 22 to 26 (  Inheritance, Typography  ) */
+/*--------------------assign 1----------------------- */
+
+.parent-div{
+    border: 2px solid #FF5722;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.child-p{
+    border: inherit;
+    padding:inherit;
+    margin:inherit;
+    background-color: #DDDDDD;
+}
+
+/*--------------------assign 2----------------------- */
+.first-font-assign-2{
+    text-transform: capitalize;
+    font-family: Open Sans;
+    font-weight: 300;
+
+}
+.second-font-assign-2{
+    text-transform: capitalize;
+    font-family: cairo;
+    font-weight: 700;
+
+
+    
+}
+.third-font-assign-2{
+    text-transform: capitalize;
+    font-family: Jomhuria;
+    font-weight: 400;
+
+
+    
+}
+
+/*--------------------assign 3----------------------- */
+
+
+html{
+    font-size: 20px;
+}
+.first-font-assign-3{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+}
+.second-font-assign-3{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem ;
+
+
+}
+.third-font-assign-3{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+
